@@ -6,7 +6,7 @@ var prefix = (">")
 assis.on('message', message => {
     if (message.content.startsWith(prefix + "eval process.env.NONEOFYOURBUISNESS")) {
 	    message.channel.send("**System:** Access Denied ")
-sleep.sleep(3)
+
     message.channel.send("Lockdown Sequence Started")
 	  assis.user.setActivity("Shutdown Sequence Initated | Contact Owners Now.") 
 	   assis.user.setStatus("dnd")
@@ -18,7 +18,6 @@ sleep.sleep(3)
 assis.on('message', message => {
     if (message.content.startsWith(prefix + "eval assis.token")) {
 	    message.channel.send("**System:** Access Denied ")
-sleep.sleep(3)
     message.channel.send("Lockdown Sequence Started")
 	  assis.user.setActivity("Shutdown Sequence Initated | Contact Owners Now.") 
 	   assis.user.setStatus("dnd")
