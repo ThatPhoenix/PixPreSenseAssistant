@@ -1,0 +1,28 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "name": "presense",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "Assistant.js",
+  "scripts": {
+    "start": "node Assistant.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "node-opus": "^0.3.0",
+    "sleep": "^5.1.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://github.com/ThatPhoenix/PreSenseAssistant"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
