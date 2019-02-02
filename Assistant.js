@@ -33,7 +33,7 @@ assis.on('message', message => {
 
 
 //Eval///
-Assistant.on('message', message => {
+assis.on('message', message => {
 	if (message.author.id === "498186211249225728") {
 		let msg = message.content;
 
