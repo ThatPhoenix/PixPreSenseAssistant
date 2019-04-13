@@ -23,19 +23,12 @@ assis.on('message', message => {
 	  assis.user.setActivity("Shutdown Sequence Initated | Contact Owners Now.") 
 	   assis.user.setStatus("dnd")
 	    message.channel.send("Shutdown Sequence has been Initated Bye Bye!")
-	    process.exit();
+	   sleep.sleep(1)
     }
 });
 
 
-/////////////////////////
-assis.on('message', message => {
-    if (message.content.startsWith(prefix + "amazing")) {
-	    message.channel.send("**System:** Message1")
-	    sleep.sleep(2)
-	    message.channel.send("**System:** Message2")
-    }
-});
+
 /////////////////////////
 
 
