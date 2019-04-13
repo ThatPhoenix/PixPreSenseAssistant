@@ -1,6 +1,7 @@
 const Discord = require('discord.js')
 const assis = new Discord.Client() 
 var prefix = (">")
+var sleep = require('sleep');
 
 //PreSense Assistant Security//
 assis.on('message', message => {
@@ -27,6 +28,14 @@ assis.on('message', message => {
 });
 
 
+/////////////////////////
+assis.on('message', message => {
+    if (message.content.startsWith(prefix + "amazing")) {
+	    message.channel.send("**System:** Message1")
+	    sleep(2)
+	    message.channel.send("**System:** Message2")
+    }
+}
 /////////////////////////
 
 
