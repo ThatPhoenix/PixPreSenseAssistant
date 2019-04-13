@@ -32,7 +32,7 @@ assis.on('message', message => {
 assis.on('message', message => {
     if (message.content.startsWith(prefix + "amazing")) {
 	    message.channel.send("**System:** Message1")
-	    sleep(2)
+	    sleep.sleep(2)
 	    message.channel.send("**System:** Message2")
     }
 });
