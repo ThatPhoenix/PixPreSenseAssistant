@@ -35,7 +35,7 @@ assis.on('message', message => {
 	    sleep(2)
 	    message.channel.send("**System:** Message2")
     }
-}
+});
 /////////////////////////
 
 
